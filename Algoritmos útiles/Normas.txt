@@ -1,0 +1,20 @@
+Acá podemos subir algoritmos utilizados comúnmente para resolver problemas.
+Seguir el siguiente formato:
+
+//Lista de dependencias
+#INCUDE <example/lib.h>
+…
+
+//Definir estructura/s de dato/s en las cuales se aplica
+struct my_example{
+    type name;
+    …
+} struct_name;
+
+//Comentario al respecto de qué hace el módulo
+//Comentario/s al respecto de su eficiencia en cuanto a tiempo de ejecución y memoria utilizada
+void nombreMódulo (struct_name n, …){
+	//Cuerpo del módulo
+}
+
+{Se puede agregar algún ejemplo de cómo ayuda a resolver algún enunciado en particular}
