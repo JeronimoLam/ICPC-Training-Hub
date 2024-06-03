@@ -1,0 +1,29 @@
+Para el que lea: Si, voy a anotar en un txt
+
+----------------------------------------------------3/5------------------------------------------------------------
+Programacion Dinamica
+    Problema de ir de la casa a la escuela de diferentes formas -> Grafo dirigido aciclico
+    Encontrar:
+        Estados
+        Transiciones
+  1   4   6   8
+  O - O - O - O
+ /   /   /|   |\
+O - O2  / |   | O
+ \   \ /  |   |/
+  O - O   O - O
+  3   5   7   9
+
+Ambas formas tienen la misma complejidad 
+En programacion dinamica siempre la complejidad es
+    Cant Nodos + Cant de Transiciones
+Forma Bottom-Up
+    Sacar:
+    f(9) = 1
+    f(7) = f(9) = 1
+    f(8) = f(9) + 1 = 2
+    f().... e ir calculando en base a los ya calculados desde lo que se hasta lo que no se
+
+Forma Top-Down
+    Hacer una especie de DFS, tener en cuenta que hay que hacer Memorization -> NO recorrer nuevamente los nodos, una vez que ya fue 
+    obtenido su valor no volver a hacer el calculo -> Guardarlo en algun lado
