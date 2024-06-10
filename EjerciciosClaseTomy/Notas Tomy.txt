@@ -6,6 +6,7 @@ Programacion Dinamica
     Encontrar:
         Estados
         Transiciones
+        
   1   4   6   8
   O - O - O - O
  /   /   /|   |\
@@ -27,3 +28,6 @@ Forma Bottom-Up
 Forma Top-Down
     Hacer una especie de DFS, tener en cuenta que hay que hacer Memorization -> NO recorrer nuevamente los nodos, una vez que ya fue 
     obtenido su valor no volver a hacer el calculo -> Guardarlo en algun lado
+
+
+----------------------------------------------------10/5------------------------------------------------------------
